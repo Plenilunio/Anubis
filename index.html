@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anubis Self-Learning Site</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--the links to import Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- links to import ScrollMagic for animations-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <style>
+      body {
+        background-image: url(../assets/Anubis.jpg);
+      }
+      a:hover {
+        color: rgb(255, 187, 0) !important;
+      }
+      /* only use !important in emergency! */
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <a
+        class="navbar-brand"
+        href="https://www.ancient-egypt-online.com/anubis.html"
+        target="_blank"
+        >Anubis</a
+      >
+
+      <button
+        class="navbar-toggler"
+        id="test-nav"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+               Resources
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"
+                  ><embed src="https://monoskop.org/images/b/b1/Eliade_Mircea_The_Sacred_and_The_profane_1963.pdf" type="application/pdf" width="1000%" height="1000px" /></a
+                >
+
+
+
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About the Author
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"
+                >I am black Queer Historian from the Global South
+                and I like afrofuturism</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="center">
+        <div class="col-3 align-self-center">
+          <div class="card text-white bg-success">
+            <div class="card-body">
+              <h4 class="card-title">Self Learning Program</h4>
+              <p class="card-text">
+                Know Thyself...it's the only way
+              </p>
+              <a href="#" class="btn text-white border-light" target="_blank"
+                >Let's do this</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- links to import ScrollMagic for animations-->
+    <style type="text/css">
+      .parallaxParent {
+        height: 100vh;
+        overflow: hidden;
+      }
+      .parallaxParent > * {
+        height: 200%;
+        position: relative;
+        top: -100%;
+      }
+    </style>
+    <div class="spacer s0"></div>
+    <div id="parallax1" class="parallaxParent">
+      <div
+        class="image"
+        style="background-image: url(../../assets/img/example_parallax_bg1.png);background-repeat: no-repeat; 
+        background-size: auto;"
+      ></div>
+    </div>
+
+    <!-- SECTION 2  -->
+
+    <div class="spacer s0"></div>
+    <div id="parallax2" class="parallaxParent">
+      <div
+        style="background-image: url(../../assets/Myself8.png);background-position:left;"
+      ></div>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div class="spacer s0"></div>
+    <div id="parallax3" class="parallaxParent">
+      <div
+        style="background-image: url(../../assets/Fire.jpg);background-position:top"
+      ></div>
+    </div>
+    <div class="spacer s2"></div>
+    <script>
+      // init controller
+      var controller = new ScrollMagic.Controller({
+        globalSceneOptions: { triggerHook: "onEnter", duration: "200%" }
+      });
+
+      // build scenes
+      new ScrollMagic.Scene({ triggerElement: "#parallax1" })
+        .setTween("#parallax1 > div", { y: "80%", ease: Linear.easeNone })
+        .addIndicators()
+        .addTo(controller);
+
+      new ScrollMagic.Scene({ triggerElement: "#parallax2" })
+        .setTween("#parallax2 > div", { y: "80%", ease: Linear.easeNone })
+        .addIndicators()
+        .addTo(controller);
+
+      new ScrollMagic.Scene({ triggerElement: "#parallax3" })
+        .setTween("#parallax3 > div", { y: "80%", ease: Linear.easeNone })
+        .addIndicators()
+        .addTo(controller);
+    </script>
+  </body>
+</html>

@@ -1,2 +1,0 @@
-# Anubis
-Created with CodeSandbox
